@@ -3,4 +3,4 @@ deep-translator
 langdetect
 langcodes
 nltk
-pyspellcheckergi
+pyspellchecker
