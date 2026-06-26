@@ -161,7 +161,7 @@ tab_t, tab_s = st.tabs(["Dịch văn bản", "Sửa lỗi chính tả"])
 
 
 with tab_t:
-    st.session_state.setdefault("set_t",None)
+    st.session_state.setdefault("res_t",None)
     with st.expander("Example"):
         for ex in EXAMPLES_T:
             st.markdown(f"-{ex}")
